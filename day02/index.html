@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>javascrip学习第二节</title>
+</head>
+<body>
+<p>第一节学习使用了js中的document对象中的获取元素的方法 去获取和改变网页中元素的值</p>
+<hr>
+<p>使用js中的new object对象 去设置一个对象出来 对象可以用点去设置相对应的属性 下面的盒子use就是使用这种方式去实现输出对象的具体属性</p>
+<div id="use"></div>
+<hr>
+<p>使用事件绑定按钮事件 当点击的时候 触发js中的tudo函数 并且按给函数传入的参数进行弹出提醒</p>
+
+<button  onclick="tudo('张四','nan',11)">点击事件绑定</button>
+
+
+
+<script src="1.js"></script>
+<script>
+    function tudo(name,sex,age){
+        alert(name+sex+age);
+        //alert(name,sex,age);
+
+    };
+    foo();
+</script>
+</body>
+</html>
