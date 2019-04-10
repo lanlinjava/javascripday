@@ -1,6 +1,6 @@
-# javascripday 学习javascrip
+# **javascripday 学习javascrip**
 
-#DAY01  概念
+# DAY01  概念
 JAVASCRIP是主要指运行在客户端即泛指浏览器端的一门脚本语言 
 　1 嵌入动态文本于HTML页面。 
 　2　对浏览器事件做出响应。 
